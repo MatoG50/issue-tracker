@@ -12,4 +12,3 @@ const NewIssuePage = () => {
 };
 
 export default NewIssuePage;
-dynamic;
