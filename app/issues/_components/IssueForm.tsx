@@ -50,7 +50,7 @@ const IssueForm = ({ issue }: { issue?: Issue }) => {
       <form onSubmit={onSubmit} className="space-y-3">
         <TextField.Root
           defaultValue={issue?.title}
-          placeholder="Title"
+          // placeholder="Title"
           {...register("title")}
         >
           <TextField.Slot />
